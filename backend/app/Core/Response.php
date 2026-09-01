@@ -14,7 +14,10 @@ final class Response
     {
         header('Access-Control-Allow-Origin: *');
         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
-        header('Access-Control-Allow-Headers: Content-Type, Authorization');
+        // Bypass-Tunnel-Reminder is sent by the client on every request; without it
+        // listed here the browser rejects the preflight and the web build cannot
+        // reach the API at all (native builds are unaffected — they skip CORS).
+        header('Access-Control-Allow-Headers: Content-Type, Authorization, Bypass-Tunnel-Reminder');
     }
 
     /**
