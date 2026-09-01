@@ -55,3 +55,8 @@ app-example
 *.db
 *.sqlite
 *.sqlite3
+
+# local agent config
+.claude/
+CLAUDE.md
+AGENTS.md
