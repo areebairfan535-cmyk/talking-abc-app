@@ -135,6 +135,8 @@ async function fetchJson<T>(apiUrl: string, path: string, options?: RequestInit)
       signal: controller.signal,
       headers: {
         'Content-Type': 'application/json',
+        // Skip the localtunnel (*.loca.lt) browser reminder page for API calls.
+        'Bypass-Tunnel-Reminder': 'true',
         ...options?.headers,
       },
     });

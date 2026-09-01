@@ -40,6 +40,7 @@ yarn-error.*
 # local artifacts / junk
 expo-start.log
 components.zip
+cloudflared.exe
 *.log
 __pycache__/
 *.pyc
@@ -49,3 +50,8 @@ app-example
 # generated native folders
 /ios
 /android
+
+# local databases (may contain real user data)
+*.db
+*.sqlite
+*.sqlite3

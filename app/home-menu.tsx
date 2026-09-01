@@ -1,8 +1,6 @@
-import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 import { router, type Href } from 'expo-router';
-import { Alert, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
-import { clearAuthUser } from '@/lib/auth';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 type MenuCardProps = {
   title: string;
@@ -34,20 +32,6 @@ function MenuItem({ title, icon, href, onPress, danger, color, textColor }: Menu
       <MenuItemContent title={title} icon={icon} danger={danger} textColor={textColor} />
     </TouchableOpacity>
   );
-}
-
-function handleLogout() {
-  Alert.alert('Log out', 'Are you sure you want to log out?', [
-    { text: 'Cancel', style: 'cancel' },
-    {
-      text: 'Log out',
-      style: 'destructive',
-      onPress: async () => {
-        await clearAuthUser();
-        router.replace('/login');
-      },
-    },
-  ]);
 }
 
 export default function HomeMenuScreen() {
@@ -112,13 +96,6 @@ export default function HomeMenuScreen() {
             icon={<Ionicons name="star" size={28} color="#fff" />}
             color="#38bdf8"
             href="/my-score"
-          />
-          <MenuItem
-            title="Logout"
-            icon={<MaterialCommunityIcons name="door-open" size={28} color="#fff" />}
-            color="#ef4444"
-            danger
-            onPress={handleLogout}
           />
         </View>
       </View>
