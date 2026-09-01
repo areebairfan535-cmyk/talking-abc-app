@@ -49,11 +49,13 @@ The project is a **full-stack application**: a cross-platform **React Native (Ex
 
 ## 📸 Screenshots
 
-> Add screenshots of the welcome, learn, game and score screens here.
+| Home Menu | Learn ABC | Choose a Game |
+|:---------:|:---------:|:-------------:|
+| <img src="assets/screenshots/home-menu.png" width="240" alt="Home menu with Learn, Play Game and My Score tiles" /> | <img src="assets/screenshots/learn.png" width="240" alt="A–Z flashcard grid with words, emoji and speaker buttons" /> | <img src="assets/screenshots/play-game.png" width="240" alt="Game picker showing the four mini-games" /> |
 
-| Learn | Play | Score |
-|:-----:|:----:|:-----:|
-| _coming soon_ | _coming soon_ | _coming soon_ |
+| Balloon Pops | My Score |
+|:------------:|:--------:|
+| <img src="assets/screenshots/game-balloon.png" width="240" alt="Balloon Pops game asking the player to pop the letter C" /> | <img src="assets/screenshots/my-score.png" width="240" alt="Progress dashboard showing 14 of 26 letters learned" /> |
 
 ---
 
