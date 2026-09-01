@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+🔤 Talking ABC
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📌 Overview
 
-## Get started
+Talking ABC is an interactive educational application designed to help children learn the English alphabet in an engaging and easy way.
 
-1. Install dependencies
+The application allows users to interact with alphabet letters and hear their pronunciation, making learning more fun and interactive.
 
-   ```bash
-   npm install
-   ```
+✨ Features
 
-2. Start the app
+- 🔤 A–Z alphabet learning
+- 🔊 Letter pronunciation / talking feature
+- 👆 Interactive user interface
+- 🎨 Child-friendly design
+- 📚 Educational and interactive learning
 
-   ```bash
-   npx expo start
-   ```
+🛠️ Technologies Used
 
-In the output, you'll find options to open the app in a
+- Python
+- Artificial Intelligence
+- Audio Processing
+- Interactive UI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🎯 Project Objective
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The main objective of this project is to make alphabet learning easier and more engaging for children through interactive letters and audio pronunciation.
 
-## Get a fresh project
+📸 Screenshots
 
-When you're ready, run:
+Screenshots of the application can be added here.
 
-```bash
-npm run reset-project
-```
+🚀 How to Run
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Clone this repository.
+2. Install the required dependencies.
+3. Run the application.
+4. Select or interact with an alphabet letter.
+5. Listen to the pronunciation.
 
-## Learn more
+👩‍💻 Author
 
-To learn more about developing your project with Expo, look at the following resources:
+Areeba Irfan
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+IT Graduate | Python Developer | AI & Mobile App Development
